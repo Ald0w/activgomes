@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylsheet" href="style.css">
+  <meta charset="utf-8">
+  <title>Форма регистрации</title>
+  <style>
+    ul {
+     background: #8bcbe9;
+     padding: 10px 15px;
+    }
+    li {
+     list-style: none;
+     display: inline;
+     margin-right: 15px;
+    }
+    a { 
+    color: rgb(0, 0, 0); 
+    text-decoration: none;
+    }
+    a:hover { 
+    text-decoration: underline;
+    }
+   </style>
+  <style>
+   body {
+    font-family: Arial, Verdana, sans-serif; /* Семейство шрифта */
+   }
+   section {
+    background: #eef8fa; /* Цвет фона */
+   }
+   h2, footer {
+    background: #e3efef; /* Цвет фона */
+    padding: 1rem; /* Поля вокруг текста */
+   }
+   h2 {
+    font-weight: normal; /* Начертание */
+    margin: 0; /* Убираем отступы по умолчанию */
+   }
+   footer {
+    text-align: right; /* Кнопка справа */
+   }
+   form {
+    padding: 1rem 1rem 0; /* Поля */
+    border-top: 1px solid #d0dcdc; /* Линия сверху */
+    border-bottom: 1px solid #d0dcdc; /* Линия снизу */
+   }
+   input {
+    width: 100%; /* На всю ширину */
+    padding: 0.8rem; /* Поля вокруг текста */
+    box-sizing: border-box; /* Ширина не учитывает padding */
+    margin-bottom: 1rem; /* Расстояние между полями */
+    border: 1px solid #d0dcdc; /* Параметры рамки */
+   }
+   button {
+    background: #54b5e0; /* Цвет кнопки */
+    color: #fff; /* Белый цвет текста */
+    border: none; /* Убираем рамку */
+    padding: 0.5rem 1.5rem; /* Поля вокруг текста */
+   }
+  </style>
+ </head>
+ <body>
+    <ul>
+        <li><a href="index.html"><b>Главная</b></a></li>
+        <li><a href="Untitled-1.html"><b>Регистрация</b></a></li>
+       </ul>
+  <section>
+   <h2>Регистрация</h2>
+   <form action="/example/handler.php">
+    <input type="email" placeholder="Электронная почта">
+    <input type="password" placeholder="Пароль">
+    <input type="password" placeholder="Подтвердите пароль">
+   </form>
+   <footer><button>Дальше</button></footer>
+  </section>
+ </body>
+</html>
